@@ -1,0 +1,247 @@
+/*---------------------------------------------- Número 0 ---------------------------------------------------- */
+/* horizontal */
+.display-num-0-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+
+.display-num-0-acerto .segmento-d{
+    border-bottom-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-0-acerto .segmento-b,
+.display-num-0-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+
+.display-num-0-acerto .segmento-e,
+.display-num-0-acerto .segmento-f{
+    border-left-color: #32bf00 ;
+}
+
+.display-num-0-acerto .segmento-g{
+    opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 1 ---------------------------------------------------- */
+.display-num-1-acerto .segmento-b ,
+.display-num-1-acerto .segmento-c {
+    border-right-color: #32bf00;
+}
+
+.display-num-1-acerto .segmento-a,
+.display-num-1-acerto .segmento-d,
+.display-num-1-acerto .segmento-e,
+.display-num-1-acerto .segmento-f,
+.display-num-1-acerto .segmento-g {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+
+/*----------------------------------------------- Número 2 --------------------------------------------------- */
+/* horizontal */
+.display-num-2-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+
+.display-num-2-acerto .segmento-g,
+.display-num-2-acerto .segmento-d  {
+    border-bottom-color: #32bf00 ;
+}
+
+.display-num-2-acerto .segmento-g .borda-g{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-2-acerto .segmento-b{
+    border-right-color: #32bf00;
+}
+
+.display-num-2-acerto .segmento-e{
+    border-left-color: #32bf00;
+}
+
+.display-num-2-acerto .segmento-c,
+.display-num-2-acerto .segmento-f {
+	opacity: 0.1;
+}
+
+/*----------------------------------------------- Número 3 --------------------------------------------------- */
+/* horizontal */
+.display-num-3-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+
+.display-num-3-acerto .segmento-g,
+.display-num-3-acerto .segmento-d {
+    border-bottom-color: #32bf00 ;
+}
+
+.display-num-3-acerto .segmento-g .borda-g{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-3-acerto .segmento-b,
+.display-num-3-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+
+.display-num-3-acerto .segmento-e,
+.display-num-3-acerto .segmento-f {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 4 ---------------------------------------------------- */
+/* horizontal */
+.display-num-4-acerto .segmento-g{
+    border-bottom-color: #32bf00 ;
+}
+
+.display-num-4-acerto .segmento-g .borda-g{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-4-acerto .segmento-b,
+.display-num-4-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+
+.display-num-4-acerto .segmento-f{
+    border-left-color: #32bf00;
+}
+
+.display-num-4-acerto .segmento-a,
+.display-num-4-acerto .segmento-d,
+.display-num-4-acerto .segmento-e {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 5 ---------------------------------------------------- */
+/* horizontal */
+.display-num-5-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+
+.display-num-5-acerto .segmento-g,
+.display-num-5-acerto .segmento-d  {
+    border-bottom-color: #32bf00 ;
+}
+
+.display-num-5-acerto .segmento-g .borda-g{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-5-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+.display-num-5-acerto .segmento-f{
+    border-left-color: #32bf00;
+}
+
+.display-num-5-acerto .segmento-b,
+.display-num-5-acerto .segmento-e {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 6 ---------------------------------------------------- */
+/* horizontal */
+.display-num-6-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+.display-num-6-acerto .segmento-g,
+.display-num-6-acerto .segmento-d{
+    border-bottom-color: #32bf00 ;
+}
+
+.display-num-6-acerto .segmento-g .borda-g{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-6-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+.display-num-6-acerto .segmento-e,
+.display-num-6-acerto .segmento-f{
+    border-left-color: #32bf00;
+}
+
+.display-num-6-acerto .segmento-b {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 7 ---------------------------------------------------- */
+/* horizontal */
+.display-num-7-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-7-acerto .segmento-b,
+.display-num-7-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+
+.display-num-7-acerto .segmento-d,
+.display-num-7-acerto .segmento-e,
+.display-num-7-acerto .segmento-f,
+.display-num-7-acerto .segmento-g {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 8 ---------------------------------------------------- */
+/* horizontal */
+.display-num-8-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+
+.display-num-8-acerto .segmento-g,
+.display-num-8-acerto .segmento-d{
+    border-bottom-color: #32bf00 ;
+}
+
+.display-num-8-acerto .segmento-g .borda-g{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-8-acerto .segmento-b,
+.display-num-8-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+
+.display-num-8-acerto .segmento-e,
+.display-num-8-acerto .segmento-f{
+    border-left-color: #32bf00;
+}
+
+/*---------------------------------------------- Número 9 ---------------------------------------------------- */
+/* horizontal */
+.display-num-9-acerto .segmento-a{
+    border-top-color: #32bf00 ;
+}
+.display-num-9-acerto .segmento-g,
+.display-num-9-acerto .segmento-d{
+    border-bottom-color: #32bf00 ;
+}
+
+.display-num-9-acerto .segmento-g .borda-g{
+    border-top-color: #32bf00 ;
+}
+
+/* vertical */
+.display-num-9-acerto .segmento-b,
+.display-num-9-acerto .segmento-c{
+    border-right-color: #32bf00;
+}
+.display-num-9-acerto .segmento-f{
+    border-left-color: #32bf00;
+}
+
+.display-num-9-acerto .segmento-e {
+	opacity: 0.1;
+}

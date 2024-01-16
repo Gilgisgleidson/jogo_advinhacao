@@ -1,0 +1,90 @@
+/* Relógio */
+#relogio {
+	position: absolute;
+    top: 260px;
+	width: 252px;
+	height: 179px;
+}
+
+/* Container do display */
+.display-container {
+	position: relative;
+	float: left;
+	width: 84px;
+	height: 148px;
+}
+
+.dois-display{
+	left: 42px;
+}
+
+.display-vazio .segmento-a,
+.display-vazio .segmento-b,
+.display-vazio .segmento-c,
+.display-vazio .segmento-d,
+.display-vazio .segmento-e,
+.display-vazio .segmento-f,
+.display-vazio .segmento-g{
+	opacity: 0;
+}
+
+/* Número 0 */
+.display-num-0 .segmento-g {
+    opacity: 0.1;
+}
+
+/* Número 1 */
+.display-num-1 .segmento-a,
+.display-num-1 .segmento-d,
+.display-num-1 .segmento-e,
+.display-num-1 .segmento-f,
+.display-num-1 .segmento-g {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+
+/* Número 2 */
+.display-num-2 .segmento-c,
+.display-num-2 .segmento-f {
+	opacity: 0.1;
+}
+
+/* Número 3 */
+.display-num-3 .segmento-e,
+.display-num-3 .segmento-f {
+	opacity: 0.1;
+}
+
+/* Número 4 */
+.display-num-4 .segmento-a,
+.display-num-4 .segmento-d,
+.display-num-4 .segmento-e {
+	opacity: 0.1;
+}
+
+/* Número 5 */
+.display-num-5 .segmento-b,
+.display-num-5 .segmento-e {
+	opacity: 0.1;
+}
+
+/* Número 6 */
+.display-num-6 .segmento-b {
+	opacity: 0.1;
+}
+
+/* Número 7 */
+.display-num-7 .segmento-d,
+.display-num-7 .segmento-e,
+.display-num-7 .segmento-f,
+.display-num-7 .segmento-g {
+	opacity: 0.1;
+}
+
+/* O Número 8 são todos os segmentos preenchidos
+logo não necessita de estilo */
+
+/* Número 9 */
+.display-num-9 .segmento-e {
+	opacity: 0.1;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Jogo de Advinhação</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/rjw4ijy.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/relogio.css">
+        <link rel="stylesheet" href="css/segmentos.css">
+        <link rel="stylesheet" href="css/acerto.css">
+        <link rel="stylesheet" href="css/erro.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="index.js" ></script>
+        <script >reset()</script>
+
+
+    </head>
+
+    <body>
+               
+        <div class="tela">
+            <div class="cabecalho">
+                QUAL É O NÚMERO? <span onclick="{regras()}" title="Regras do jogo" class="tooltip"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                <div style="width: 203px; height: 1px; background-color: #CFCFCF; margin-top: 11px; margin-left: 23px;">
+                    
+                </div>
+            </div>
+
+            <div id="contador" class="contador">
+                Contador de tentativas: 
+            </div>
+           
+            
+            <div id="relogio">
+                <div id="mensagem" class="mensagem">
+                    
+                </div>
+
+                <div id="display-1" class="display-container display-vazio tres-display">
+                    <div class="segmento-a"></div>
+                    <div class="segmento-b"></div>
+                    <div class="segmento-c"></div>
+                    <div class="segmento-d"></div>
+                    <div class="segmento-e"></div>
+                    <div class="segmento-f"></div>
+                    <div class="segmento-g"><span class="borda-g"></span></div>
+                </div>
+                <div id="display-2" class="display-container display-vazio tres-display">
+                    <div class="segmento-a"></div>
+                    <div class="segmento-b"></div>
+                    <div class="segmento-c"></div>
+                    <div class="segmento-d"></div>
+                    <div class="segmento-e"></div>
+                    <div class="segmento-f"></div>
+                    <div class="segmento-g"><span class="borda-g"></span></div>
+                </div>
+                <div id="display-3" class="display-container display-vazio tres-display">
+                    <div class="segmento-a"></div>
+                    <div class="segmento-b"></div>
+                    <div class="segmento-c"></div>
+                    <div class="segmento-d"></div>
+                    <div class="segmento-e"></div>
+                    <div class="segmento-f"></div>
+                    <div class="segmento-g"><span class="borda-g"></span></div>
+                </div>
+
+                
+            </div>                       
+            
+            <div id="nova-partida" class="nova-partida">
+                
+            </div>
+            
+            <div id="texto" class="texto">
+
+                <input id="palpite" class="palpite" placeholder="Digite o palpite" type="number" maxlength="3"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                />
+                <button onclick="{main()}" id="botao" class="botao">ENVIAR</button>                 
+            </div>
+
+        </div>
+
+    </body>
+</html>

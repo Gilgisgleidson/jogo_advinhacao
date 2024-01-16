@@ -1,0 +1,88 @@
+.segmento-a{
+    position: absolute;
+	width: 36px;
+	left: 12px;
+	border-top: 12px solid #262A34;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-radius: 7px;
+}
+
+.segmento-b{
+    position: absolute;
+	height: 36px;
+	width: 0;
+    top: 1px;
+    left: 61px;
+	border-right: 12px solid #262A34;
+	border-top: 12px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-radius: 7px;
+}
+
+.segmento-c{
+    position: absolute;
+	height: 36px;
+	width: 0;
+    top: 59px;
+    left: 61px;
+	border-right: 12px solid #262A34;
+	border-top: 8px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-radius: 7px;
+}
+
+.segmento-d{
+    position: absolute;
+	width: 36px;
+	left: 12px;
+    top: 104px;
+	border-bottom: 12px solid #262A34;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-radius: 7px;
+}
+.segmento-e{
+    position: absolute;
+	height: 36px;
+	width: 0;
+    top: 59px;
+    left: 11px;
+	border-left: 12px solid #262A34;
+	border-top: 8px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-radius: 7px;
+}
+
+.segmento-f{
+    position: absolute;
+	height: 36px;
+    top: 1px;
+    left: 11px;
+	width: 0;
+	border-left: 12px solid #262A34;
+	border-top: 12px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-radius: 7px;
+}
+
+.segmento-g{
+    position: absolute;
+	width: 34px;
+	left: 13px;
+    top: 50px;
+	border-bottom: 8px solid #262A34;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+}
+
+.segmento-g .borda-g{
+    display: block;
+	position: absolute;
+	top: 8px;
+	left: -12px;
+	right: -12px;
+	border-top: 8px solid #262A34;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+}

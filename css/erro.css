@@ -1,0 +1,247 @@
+/*---------------------------------------------- Número 0 ---------------------------------------------------- */
+/* horizontal */
+.display-num-0-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+
+.display-num-0-erro .segmento-d{
+    border-bottom-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-0-erro .segmento-b,
+.display-num-0-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+
+.display-num-0-erro .segmento-e,
+.display-num-0-erro .segmento-f{
+    border-left-color: #cc3300 ;
+}
+
+.display-num-0-erro .segmento-g{
+    opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 1 ---------------------------------------------------- */
+.display-num-1-erro .segmento-b ,
+.display-num-1-erro .segmento-c {
+    border-right-color: #cc3300;
+}
+
+.display-num-1-erro .segmento-a,
+.display-num-1-erro .segmento-d,
+.display-num-1-erro .segmento-e,
+.display-num-1-erro .segmento-f,
+.display-num-1-erro .segmento-g {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+
+/*----------------------------------------------- Número 2 --------------------------------------------------- */
+/* horizontal */
+.display-num-2-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+
+.display-num-2-erro .segmento-g,
+.display-num-2-erro .segmento-d  {
+    border-bottom-color: #cc3300 ;
+}
+
+.display-num-2-erro .segmento-g .borda-g{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-2-erro .segmento-b{
+    border-right-color: #cc3300;
+}
+
+.display-num-2-erro .segmento-e{
+    border-left-color: #cc3300;
+}
+
+.display-num-2-erro .segmento-c,
+.display-num-2-erro .segmento-f {
+	opacity: 0.1;
+}
+
+/*----------------------------------------------- Número 3 --------------------------------------------------- */
+/* horizontal */
+.display-num-3-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+
+.display-num-3-erro .segmento-g,
+.display-num-3-erro .segmento-d {
+    border-bottom-color: #cc3300 ;
+}
+
+.display-num-3-erro .segmento-g .borda-g{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-3-erro .segmento-b,
+.display-num-3-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+
+.display-num-3-erro .segmento-e,
+.display-num-3-erro .segmento-f {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 4 ---------------------------------------------------- */
+/* horizontal */
+.display-num-4-erro .segmento-g{
+    border-bottom-color: #cc3300 ;
+}
+
+.display-num-4-erro .segmento-g .borda-g{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-4-erro .segmento-b,
+.display-num-4-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+
+.display-num-4-erro .segmento-f{
+    border-left-color: #cc3300;
+}
+
+.display-num-4-erro .segmento-a,
+.display-num-4-erro .segmento-d,
+.display-num-4-erro .segmento-e {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 5 ---------------------------------------------------- */
+/* horizontal */
+.display-num-5-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+
+.display-num-5-erro .segmento-g,
+.display-num-5-erro .segmento-d  {
+    border-bottom-color: #cc3300 ;
+}
+
+.display-num-5-erro .segmento-g .borda-g{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-5-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+.display-num-5-erro .segmento-f{
+    border-left-color: #cc3300;
+}
+
+.display-num-5-erro .segmento-b,
+.display-num-5-erro .segmento-e {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 6 ---------------------------------------------------- */
+/* horizontal */
+.display-num-6-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+.display-num-6-erro .segmento-g,
+.display-num-6-erro .segmento-d{
+    border-bottom-color: #cc3300 ;
+}
+
+.display-num-6-erro .segmento-g .borda-g{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-6-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+.display-num-6-erro .segmento-e,
+.display-num-6-erro .segmento-f{
+    border-left-color: #cc3300;
+}
+
+.display-num-6-erro .segmento-b {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 7 ---------------------------------------------------- */
+/* horizontal */
+.display-num-7-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-7-erro .segmento-b,
+.display-num-7-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+
+.display-num-7-erro .segmento-d,
+.display-num-7-erro .segmento-e,
+.display-num-7-erro .segmento-f,
+.display-num-7-erro .segmento-g {
+	opacity: 0.1;
+}
+
+/*---------------------------------------------- Número 8 ---------------------------------------------------- */
+/* horizontal */
+.display-num-8-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+
+.display-num-8-erro .segmento-g,
+.display-num-8-erro .segmento-d{
+    border-bottom-color: #cc3300 ;
+}
+
+.display-num-8-erro .segmento-g .borda-g{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-8-erro .segmento-b,
+.display-num-8-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+
+.display-num-8-erro .segmento-e,
+.display-num-8-erro .segmento-f{
+    border-left-color: #cc3300;
+}
+
+/*---------------------------------------------- Número 9 ---------------------------------------------------- */
+/* horizontal */
+.display-num-9-erro .segmento-a{
+    border-top-color: #cc3300 ;
+}
+.display-num-9-erro .segmento-g,
+.display-num-9-erro .segmento-d{
+    border-bottom-color: #cc3300 ;
+}
+
+.display-num-9-erro .segmento-g .borda-g{
+    border-top-color: #cc3300 ;
+}
+
+/* vertical */
+.display-num-9-erro .segmento-b,
+.display-num-9-erro .segmento-c{
+    border-right-color: #cc3300;
+}
+.display-num-9-erro .segmento-f{
+    border-left-color: #cc3300;
+}
+
+.display-num-9-erro .segmento-e {
+	opacity: 0.1;
+}

@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+}
+
+.tela{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEEEEE;
+    height: 520px;
+    width: 365px;
+    font-family: montserrat, sans-serif;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #EF6C00;
+    padding-top: 82px;
+}
+
+.tela .cabecalho{
+    align-items: center;
+    width: 271px;
+    margin-left: 20px;
+}
+
+.tela .texto{
+    display: flex;
+    justify-content: center;
+    width: 298px;
+    height: 42px;
+    margin-bottom: 30px;
+}
+
+.tela .texto .botao{
+    margin-left: 11px;
+    background: linear-gradient(to bottom, #EF6C00 0%,#C0661C 100%);  
+    color: #FFFFFF; 
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    width: 75px;
+    cursor: pointer;
+}
+
+.tela .texto .palpite{
+    padding: 11px;
+    width: 217px;
+    border-radius: 4px;
+    border: 2px solid #CFCFCF;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.mensagem{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 18px;
+	color: #ff6600;
+    height: 30px;
+}
+
+.nova-partida{
+    display: flex;
+    position: absolute;
+    top: 467px;
+}
+
+.botao-nova-partida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #434854 0%,#9E9E9E 100%);  
+    color: #FFFFFF; 
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    width: 130px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.fa-repeat{
+    width: 24px;
+}
+
+input:focus{
+    outline-color: #FF6600;
+}
+
+.fa-info-circle{
+    color: #9E9E9E;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.fa-info-circle:hover{
+    opacity: 1;
+}
+
+.tooltip {
+    height: 3em;
+    width: 10em;
+}
+
+.contador{
+    position: absolute;
+    top: 200px;
+    color: #EEEEEE;
+}
