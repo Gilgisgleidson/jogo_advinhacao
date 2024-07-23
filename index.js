@@ -61,9 +61,6 @@ function reset(){
     .then((data) => {
         numGerado = data.value;
         var erro = data.StatusCode;
-
-        console.log(numGerado);
-        console.log(erro);
         
         document.getElementById("contador").style.color = "#EEEEEE";
         
@@ -119,8 +116,6 @@ async function main() {
     
     palpite = document.getElementById('palpite').value;
     palpite = palpite/1;
-    
-    console.log(palpite);
 
     document.getElementById("contador").style.color = "#000";
     
